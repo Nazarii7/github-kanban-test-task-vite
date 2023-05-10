@@ -1,10 +1,15 @@
 import { Container, Box } from "@mui/material";
+import CardBoard from "../Card/CardBoard";
+import SearchUrl from "../SearchUrl/SearchUrl";
 
-const App = (): JSX.Element => {
+const App: React.FC = () => {
   return (
     <>
       <Container>
-        <Box></Box>
+        <Box>
+          <SearchUrl />
+          <CardBoard />
+        </Box>
       </Container>
     </>
   );

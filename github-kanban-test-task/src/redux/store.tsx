@@ -9,7 +9,7 @@ import {
   PURGE,
   REGISTER,
 } from "redux-persist";
-import repoDataReducer from "./reposRedusers";
+import repoDataReducer from "./reposSlice";
 import storage from "redux-persist/lib/storage";
 
 const persistConfig = {

@@ -63,10 +63,10 @@ export const retrieveIssuesRepo = createAsyncThunk(
         });
 
         const progressState = selectedData.filter((item) => {
-          return item.state === "open" && item.assigne;
+          return item.state === "open" && item.assignee;
         });
         const todoState = selectedData.filter((item) => {
-          return item.state === "open" && !item.assigne.valueOf();
+          return item.state === "open" && !item.assignee.valueOf();
         });
 
         return { doneState, progressState, todoState };

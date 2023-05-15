@@ -18,7 +18,7 @@ export interface IIssuesItem {
   typeUser: string;
   comments: number;
   state: string;
-  assigne: boolean;
+  assignee: boolean;
 }
 
 export interface IRootSate {

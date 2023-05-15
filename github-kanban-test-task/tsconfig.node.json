@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["yargs"],
     "composite": true,
     "skipLibCheck": true,
     "module": "ESNext",
